@@ -28,19 +28,19 @@ docker run -p 9090:9090 golang-assignment
 _Endpoints:_
 
 ```sh
-# Get all pets
+# Get all board games
 GET /boardGames
 
-# Get a specific pet
+# Get a specific board game
 GET /boardGames/:id
 
-# Create a pet
+# Create a board game
 POST /boardGames
 
-# Update a pet
+# Update a board game
 PUT /boardGames/:id
 
-# Delete a pet
+# Delete a board game
 DELETE /boardGames/:id
 ```
 
